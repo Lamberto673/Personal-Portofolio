@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donny Marcus Steward - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/13ef538e60.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="logo">PORTO</div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#achievements" class="nav-link">Achievements</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+    <section class="hero" id="home">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <div class="block"><img src="./img/Profile.jpg"></div>
+            <h1 class="hero-title fade-in">Donny Zaki Huda</h1>
+            <p class="hero-subtitle fade-in">Electronics & Instrumentation Student</p><br>
+            <!-- <p class="hero-description fade-in">Software Developer | Problem Solver | Creative Thinker</p> -->
+            <div class="hero-buttons fade-in">
+                <a href="#projects" class="btn btn-primary">View My Work</a>
+                <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+            </div>
+            <div class="scroll-indicator">
+                <button onclick="location='#about'"><i class="fas fa-chevron-down"></i></button>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="section-title fade-in-up">About Me</h2>
+            <div class="about-content fade-in-up">
+                <div class="about-text">
+                    <p>I'm an undergraduate student in <strong>Electronics and Instrumentation Engineering (Class of 2025)</strong> at Universitas Gadjah Mada, with a growing passion for software development and problem-solving through code. My academic background provides me with a strong foundation in logic, mathematics, and systems thinking, which I continually apply to build efficient and reliable software solutions.</p>
+                    
+                    <p>I enjoy developing small-scale applications, GUI utilities, and console programs, experimenting with how thoughtful design and clean code can turn ideas into functional tools. Over time, I've become increasingly fascinated by the principles of software architecture, algorithm design, and how technology can be used to automate and simplify complex tasks.</p>
+                    
+                    <p>I'm currently deepening my knowledge of programming languages, web technologies, and software engineering best practices learning how to design, implement, and optimize applications that are both scalable and user-friendly. My long-term goal is to grow into a versatile software engineer who not only writes effective code but also understands how software integrates with real-world systems to make a meaningful life.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="achievements" id="achievements">
+        <div class="container">
+            <h2 class="section-title fade-in-up">Achievements</h2>
+            <div class="achievements-grid">
+                <div class="achievement-card fade-in-up">
+                    <div class="achievement-image">
+                        <img src="./img/Architecture.jpg" alt="Architectural Photography Award" onerror="this.src='./img/placeholder.jpg'">
+                    </div>
+                    <div class="achievement-content">
+                        <div class="achievement-badge">
+                            <i class="fas fa-trophy"></i>
+                            <span>2nd Place</span>
+                        </div>
+                        <h3>Architectural Photography</h3>
+                        <p>UYG UNISA 2024</p>
+                    </div>
+                </div>
+
+                <div class="achievement-card fade-in-up">
+                    <div class="achievement-image">
+                        <img src="./img/Model.jpg" alt="Model Photography Award" onerror="this.src='./img/placeholder.jpg'">
+                    </div>
+                    <div class="achievement-content">
+                        <div class="achievement-badge">
+                            <i class="fas fa-trophy"></i>
+                            <span>2nd Place</span>
+                        </div>
+                        <h3>Model Photography</h3>
+                        <p>UYG UNISA 2024</p>
+                    </div>
+                </div>
+
+                <div class="achievement-card fade-in-up">
+                    <div class="achievement-image">
+                        <img src="./img/Movie.jpg" alt="Short Film Award" onerror="this.src='./img/placeholder.jpg'">
+                    </div>
+                    <div class="achievement-content">
+                        <div class="achievement-badge">
+                            <i class="fas fa-trophy"></i>
+                            <span>2nd Place</span>
+                        </div>
+                        <h3>Short Film: "Lingkungan Harapan Kita"</h3>
+                        <p>Film Pendek Bumi Kita - Sanata Dharma University 2024</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <div class="container">
+            <h2 class="section-title fade-in-up">Projects</h2>
+            <div class="projects-content fade-in-up">
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fab fa-github"></i>
+                    </div>
+                    <h3>Explore My GitHub</h3>
+                    <p>Check out my repositories and contributions on GitHub to see my latest projects, code samples, and open-source work.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/Lamberto673" target="_blank" class="btn btn-primary">
+                            <i class="fab fa-github"></i>
+                            Visit GitHub
+                        </a>
+                    </div>
+                    <div class="github-link-copy">
+                        <input type="text" value="https://github.com/Lamberto673" id="github-link" readonly>
+                        <button class="copy-btn" onclick="copyGithubLink()">
+                            <i class="fas fa-copy"></i>
+                            Copy
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="site-footer" id="contact">
+        <div class="footer-inner">
+            <div class="footer-col footer-contact">
+                <h2>Contact</h2>
+                <p class="footer-text">
+                    Open for internships, collaborations, and interesting side projects.
+                </p>
+                <ul class="contact-list">
+                    <li>
+                        <i class="fa-solid fa-phone"></i>
+                        <span>+62-812-2926-3584</span>
+                    </li>
+                    <li>
+                        <i class="fa-brands fa-square-instagram"></i>
+                        <span>@donnys_123</span>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>donnyhuda2007@gmail.com</span>
+                    </li>
+                    <li>
+                        <i class="fa-brands fa-github"></i>
+                        <a href="https://github.com/Lamberto673" target="_blank">/Lamberto673</a>
+                    </li>
+                    <li>
+                        <i class="fa-brands fa-linkedin"></i>
+                        <a href="https://www.linkedin.com/in/donny-zaki-huda-150b6b380/" target="_blank">@Donny Zaki Huda</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h3>Quick Links</h3>
+                <ul class="footer-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#achievements">Achievements</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h3>Elsewhere</h3>
+                <ul class="footer-links">
+                    <li><a href="https://github.com/Lamberto673" target="_blank">GitHub Portfolio</a></li>
+                    <li><a href="#">Resume</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <small>© 2025 Donny Zaki Huda. All rights reserved.</small>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
