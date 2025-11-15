@@ -1,4 +1,4 @@
- <h1>Donny Marcus Steward — Portfolio Website</h1>
+ <h1>Donny Zaki Huda — Portfolio Website</h1>
 
   <p>
     This is my personal developer portfolio showcasing my projects, background, and
@@ -54,7 +54,7 @@
 
   <h2>📬 Contact</h2>
   <ul>
-    <li><b>Name:</b> Donny Marcus Steward (Donny Zaki Huda)</li>
+    <li><b>Name:</b> Donny Zaki Huda</li>
     <li><b>Location:</b> Yogyakarta, Indonesia</li>
     <li><b>Phone:</b> +62 912 9301 920312</li>
     <li><b>Email:</b> youremail@gmail.com</li>
